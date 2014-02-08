@@ -32,6 +32,10 @@
             android:name="com.codear.activaciudad.LevantamientoActivity"
             android:label="@string/title_activity_levantamiento" >
         </activity>
+        <activity
+            android:name="com.codear.activaciudad.TipoLevantamientoActivity"
+            android:label="@string/title_activity_tipo_levantamiento" >
+        </activity>
     </application>
 
 </manifest>
