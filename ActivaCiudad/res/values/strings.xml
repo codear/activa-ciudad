@@ -13,9 +13,26 @@
     <string name="passs">Contraseña:</string>
     <string name="userNew">¿Aún no eres usuario?</string>
     <string name="registrate">Regístrate!</string>
+<<<<<<< HEAD
     
     <!-- Content Description -->
     <string name="imgDescription">imagen</string>
     
+=======
+    <!-- Fin Login Activity -->
+
+
+    <!-- Levantamiento Activity -->
+    <string name="title_activity_levantamiento">LevantamientoActivity</string>
+    <string name="levantamientoLibre">Levantamiento libre</string>
+    <string name="LevantamientoProy">Levantamiento por\nproyecto</string>
+    <!-- Fin Levantamiento Activity -->
+
+
+    <!-- Content Description -->
+    <string name="imgDescription">imagen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tipo_levantamiento">TipoLevantamientoActivity</string>
+>>>>>>> Proyecto_sin_gitignore
 
 </resources>
