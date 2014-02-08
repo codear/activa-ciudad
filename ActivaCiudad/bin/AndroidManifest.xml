@@ -28,10 +28,6 @@
             android:name="com.codear.activaciudad.LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
-        <activity
-            android:name="com.codear.activaciudad.LevantamientoActivity"
-            android:label="@string/title_activity_levantamiento" >
-        </activity>
     </application>
 
 </manifest>
