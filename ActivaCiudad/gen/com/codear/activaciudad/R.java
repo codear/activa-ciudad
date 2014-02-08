@@ -22,18 +22,20 @@ public final class R {
     }
     public static final class drawable {
         public static final int backgroundcolor=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int loginbotonregistro=0x7f020002;
-        public static final int texto_splash=0x7f020003;
+        public static final int comenzar=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int loginbotonregistro=0x7f020003;
+        public static final int texto_splash=0x7f020004;
     }
     public static final class id {
         public static final int EdtMail=0x7f080002;
         public static final int EdtPass=0x7f080004;
         public static final int Ingresa=0x7f080000;
         public static final int Mail=0x7f080001;
-        public static final int action_settings=0x7f080008;
-        public static final int button1=0x7f080005;
-        public static final int imageView1=0x7f080007;
+        public static final int action_settings=0x7f080009;
+        public static final int btnEntrar=0x7f080007;
+        public static final int btnRegistrarse=0x7f080005;
+        public static final int imageView1=0x7f080008;
         public static final int pass=0x7f080003;
         public static final int usuarioNuevo=0x7f080006;
     }
