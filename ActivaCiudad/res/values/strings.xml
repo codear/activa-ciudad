@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Activa Ciudad</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Inicio Login Activity -->
+    <string name="title_activity_login">LoginActivity</string>
+    
+    <!-- Fin Login Activity -->
+    <string name="ingresa">Ingresa</string>
+    <string name="mail">Mail:</string>
+    <string name="passs">Contraseña:</string>
+    <string name="userNew">¿Aún no eres usuario?</string>
+    <string name="registrate">Regístrate!</string>
+    
+    <!-- Content Description -->
+    <string name="imgDescription">imagen</string>
+    
+
+</resources>
