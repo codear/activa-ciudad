@@ -28,8 +28,6 @@
             android:name="com.codear.activaciudad.LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
-<<<<<<< HEAD
-=======
         <activity
             android:name="com.codear.activaciudad.LevantamientoActivity"
             android:label="@string/title_activity_levantamiento" >
@@ -38,7 +36,6 @@
             android:name="com.codear.activaciudad.TipoLevantamientoActivity"
             android:label="@string/title_activity_tipo_levantamiento" >
         </activity>
->>>>>>> Proyecto_sin_gitignore
     </application>
 
 </manifest>
