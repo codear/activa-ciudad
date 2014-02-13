@@ -12,11 +12,4 @@ public class TipoLevantamientoActivity extends Activity {
 		setContentView(R.layout.activity_tipo_levantamiento);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.tipo_levantamiento, menu);
-		return true;
-	}
-
 }
