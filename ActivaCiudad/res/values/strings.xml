@@ -25,6 +25,8 @@
 
     <!-- Tipo de levantamiento -->
     <string name="title_activity_tipo_levantamiento">TipoLevantamientoActivity</string>
+    <string name="tipoLevantamiento">Uso</string>
+    <string name="subtipoLevantamiendo">Giro</string>
     <!-- Fin Tipo de levantamiento -->
 
 

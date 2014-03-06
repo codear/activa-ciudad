@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="usoLevantamiendoArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="habitacionalArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="comercioArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="espaciosverdesArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="espaciosabiertosArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="otrosArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="industriaArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="serviciosArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="equipamientoUnoArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="equipamientoDosArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+    <string-array name="iglesiastemplosArr">
+		<item>HABITACIONAL [H] +</item> 
+		<item>COMERCIO [C] +</item>  
+		<item>ESPACIOS VERDES [EV] + *</item>  
+		<item>ESPACIOS ABIERTOS [EA] + *</item>
+		<item>OTROS [O] +</item> 
+		<item>INDUSTRIA [I] +</item>  
+		<item>SERVICIOS [S] +</item>  
+		<item>EQUIPAMIENTO [E] +</item>
+		<item>EQUIPAMIENTO [EQP] +</item> 
+		<item>IGLESIAS Y TEMPLOS [IT] +</item>  
+    </string-array>
+    
+</resources>
