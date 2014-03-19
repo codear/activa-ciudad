@@ -23,6 +23,9 @@ public final class R {
     }
     public static final class attr {
     }
+    public static final class color {
+        public static final int edittext_color=0x7f050000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -30,8 +33,8 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int backgroundcolor=0x7f020000;
@@ -42,69 +45,94 @@ public final class R {
         public static final int texto_splash=0x7f020005;
     }
     public static final class id {
-        public static final int EdtMail=0x7f090006;
-        public static final int EdtPass=0x7f090008;
-        public static final int Ingresa=0x7f090004;
-        public static final int Mail=0x7f090005;
-        public static final int action_settings=0x7f090013;
-        public static final int btnEntrar=0x7f09000b;
-        public static final int btnLevantamiento=0x7f090000;
-        public static final int btnLevantamientoLibre=0x7f090003;
-        public static final int btnRegistrarse=0x7f090009;
-        public static final int button1=0x7f090012;
-        public static final int imageView1=0x7f09000c;
-        public static final int layUSO=0x7f09000d;
-        public static final int levantamientoLibreTxt=0x7f090002;
-        public static final int levantamientoUno=0x7f090001;
-        public static final int pass=0x7f090007;
-        public static final int spinnerGiro=0x7f090011;
-        public static final int spinnerUso=0x7f09000f;
-        public static final int txtGiro=0x7f090010;
-        public static final int txtUso=0x7f09000e;
-        public static final int usuarioNuevo=0x7f09000a;
+        public static final int EdtMail=0x7f0a0006;
+        public static final int EdtPass=0x7f0a0008;
+        public static final int Ingresa=0x7f0a0004;
+        public static final int Mail=0x7f0a0005;
+        public static final int action_settings=0x7f0a001c;
+        public static final int btnEntrar=0x7f0a000b;
+        public static final int btnLevantamiento=0x7f0a0000;
+        public static final int btnLevantamientoLibre=0x7f0a0003;
+        public static final int btnRegistrarse=0x7f0a0009;
+        public static final int btnSigTipoLeva=0x7f0a001b;
+        public static final int datePicker=0x7f0a001a;
+        public static final int imageView1=0x7f0a000c;
+        public static final int levantamientoLibreTxt=0x7f0a0002;
+        public static final int levantamientoUno=0x7f0a0001;
+        public static final int manzanaEdtxt=0x7f0a0016;
+        public static final int numCedulaEdtxt=0x7f0a0018;
+        public static final int pass=0x7f0a0007;
+        public static final int responsableEdtxt=0x7f0a0012;
+        public static final int spinnerGiro=0x7f0a0010;
+        public static final int spinnerUso=0x7f0a000e;
+        public static final int txtFecha=0x7f0a0019;
+        public static final int txtGiro=0x7f0a000f;
+        public static final int txtManzana=0x7f0a0015;
+        public static final int txtNoCedula=0x7f0a0017;
+        public static final int txtResponsable=0x7f0a0011;
+        public static final int txtUso=0x7f0a000d;
+        public static final int txtZona=0x7f0a0013;
+        public static final int usuarioNuevo=0x7f0a000a;
+        public static final int zonaEdtxt=0x7f0a0014;
     }
     public static final class layout {
-        public static final int activity_levantamiento=0x7f030000;
-        public static final int activity_login=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_tipo_levantamiento=0x7f030003;
+        public static final int activity_formulario_piso=0x7f030000;
+        public static final int activity_levantamiento=0x7f030001;
+        public static final int activity_login=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int activity_tipo_levantamiento=0x7f030004;
     }
     public static final class menu {
-        public static final int levantamiento=0x7f080000;
-        public static final int login=0x7f080001;
-        public static final int main=0x7f080002;
-        public static final int tipo_levantamiento=0x7f080003;
+        public static final int formulario_piso=0x7f090000;
+        public static final int levantamiento=0x7f090001;
+        public static final int login=0x7f090002;
+        public static final int main=0x7f090003;
+        public static final int tipo_levantamiento=0x7f090004;
     }
     public static final class string {
-        public static final int LevantamientoProy=0x7f06000a;
-        public static final int action_settings=0x7f060001;
-        public static final int app_name=0x7f060000;
-        public static final int hello_world=0x7f06000f;
+        public static final int LevantamientoProy=0x7f07000a;
+        public static final int NoCedula=0x7f070011;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int btnSiguiente=0x7f070013;
+        /**  Fin Formulario Tipo Levantamiento 
+ Strings de errores 
+         */
+        public static final int errEdtxZero=0x7f070017;
+        public static final int fecha=0x7f070012;
+        public static final int hello_world=0x7f070015;
         /**  Fin Tipo de levantamiento 
  Content Description 
          */
-        public static final int imgDescription=0x7f06000e;
+        public static final int imgDescription=0x7f070014;
         /**  Fin Login Activity 
          */
-        public static final int ingresa=0x7f060003;
-        public static final int levantamientoLibre=0x7f060009;
-        public static final int mail=0x7f060004;
-        public static final int passs=0x7f060005;
-        public static final int registrate=0x7f060007;
-        public static final int subtipoLevantamiendo=0x7f06000d;
-        public static final int tipoLevantamiento=0x7f06000c;
+        public static final int ingresa=0x7f070003;
+        public static final int levantamientoLibre=0x7f070009;
+        public static final int mail=0x7f070004;
+        public static final int manzana=0x7f070010;
+        public static final int passs=0x7f070005;
+        public static final int registrate=0x7f070007;
+        public static final int responsable=0x7f07000e;
+        public static final int subtipoLevantamiendo=0x7f07000d;
+        public static final int tipoLevantamiento=0x7f07000c;
+        /**  Fin Content Description 
+ Formulario Tipo Levantamiento 
+         */
+        public static final int title_activity_formulario_piso=0x7f070016;
         /**  Fin Login Activity 
  Levantamiento Activity 
          */
-        public static final int title_activity_levantamiento=0x7f060008;
+        public static final int title_activity_levantamiento=0x7f070008;
         /**  Inicio Login Activity 
          */
-        public static final int title_activity_login=0x7f060002;
+        public static final int title_activity_login=0x7f070002;
         /**  Fin Levantamiento Activity 
  Tipo de levantamiento 
          */
-        public static final int title_activity_tipo_levantamiento=0x7f06000b;
-        public static final int userNew=0x7f060006;
+        public static final int title_activity_tipo_levantamiento=0x7f07000b;
+        public static final int userNew=0x7f070006;
+        public static final int zona=0x7f07000f;
     }
     public static final class style {
         /** 
@@ -128,10 +156,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
 }

@@ -5,14 +5,14 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="10"
+        android:minSdkVersion="14"
         android:targetSdkVersion="18" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar" >
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
 
         <!-- android:theme="@style/AppTheme" > -->
         <activity
@@ -35,6 +35,10 @@
         <activity
             android:name="com.codear.activaciudad.TipoLevantamientoActivity"
             android:label="@string/title_activity_tipo_levantamiento" >
+        </activity>
+        <activity
+            android:name="com.codear.activaciudad.FormularioPisoActivity"
+            android:label="@string/title_activity_formulario_piso" >
         </activity>
     </application>
 

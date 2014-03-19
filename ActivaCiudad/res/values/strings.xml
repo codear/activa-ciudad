@@ -27,11 +27,25 @@
     <string name="title_activity_tipo_levantamiento">TipoLevantamientoActivity</string>
     <string name="tipoLevantamiento">Uso</string>
     <string name="subtipoLevantamiendo">Giro</string>
+    <string name="responsable">Responsable</string>
+    <string name="zona">Zona</string>
+    <string name="manzana">Manzana</string>
+    <string name="NoCedula">Nº de cedula</string>
+    <string name="fecha">Fecha</string>
+    <string name="btnSiguiente">Siguiente</string>
     <!-- Fin Tipo de levantamiento -->
 
 
     <!-- Content Description -->
     <string name="imgDescription">imagen</string>
     <string name="hello_world">Hello world!</string>
-
+    <!-- Fin Content Description -->
+    
+    <!-- Formulario Tipo Levantamiento -->
+    <string name="title_activity_formulario_piso">FormularioPisoActivity</string>
+	<!-- Fin Formulario Tipo Levantamiento -->
+    
+    <!-- Strings de errores -->
+    <string name="errEdtxZero">Campo vacio</string>
+    
 </resources>
