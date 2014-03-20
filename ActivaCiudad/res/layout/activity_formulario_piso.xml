@@ -132,7 +132,7 @@
                 </RelativeLayout>
 
                 <LinearLayout
-                    android:id="layoutPU"
+                    android:id="@+id/layoutPU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"

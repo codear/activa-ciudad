@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class ControllSQL extends SQLiteOpenHelper {
 	
-	String sqlCreate = "CREATE TABLE Lote (id_lote INTEGER not null autoincrement," +
+	String sqlCreate = "CREATE TABLE Lote (id_lote INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL," +
 			"PBuso TEXT, PBgiro TEXT,PBedo TEXT," +
 			"PUuso TEXT, PUgiro TEXT,PUedo TEXT," +
 			"PDuso TEXT, PDgiro TEXT,PDedo TEXT," +
