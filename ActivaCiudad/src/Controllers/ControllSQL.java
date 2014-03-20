@@ -15,6 +15,7 @@ public class ControllSQL extends SQLiteOpenHelper {
 			"PCuso TEXT, PCgiro TEXT,PCedo TEXT";
 	
 	String sqlDrop = "DROP TABLE IF EXISTS Lote";
+	String sqlTruncate = "TRUNCATE TABLE Lote";
 
 	public ControllSQL(Context context, String name, CursorFactory factory,
 			int version) {

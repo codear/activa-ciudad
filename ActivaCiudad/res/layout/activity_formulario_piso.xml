@@ -27,49 +27,78 @@
                 android:layout_marginBottom="15dp"
                 android:orientation="vertical" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="Planta Baja"
-                    android:textColor="#FFF" />
+                <RelativeLayout
+                    android:id="@+id/DropPB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/plantaBajaStr"
+                        android:textColor="#FFF" />
+
+                    <ImageView
+                        android:id="@+id/ImgPB"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/imgDescription"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutPB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    
                 <TextView
+                    android:id="@+id/txtUsoPB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Uso"
+                    android:text="@string/usoStr"
                     android:textColor="#FFF" />
 
                 <EditText
+                    android:id="@+id/edtxUsoPB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
                     android:textColor="#FFF" />
 
                 <TextView
+                    android:id="@+id/txtGiroPB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Giro"
+                    android:text="@string/giroStr"
                     android:textColor="#FFF" />
 
                 <EditText
+                    android:id="@+id/edtxGiroPB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
                     android:textColor="#FFF" />
 
                 <TextView
+                    android:id="@+id/txtEdoPB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Edo"
+                    android:text="@string/edoStr"
                     android:textColor="#FFF" />
 
                 <EditText
+                    android:id="@+id/edtxEdoPB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
                     android:textColor="#FFF" />
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -78,205 +107,323 @@
                 android:layout_marginBottom="15dp"
                 android:orientation="vertical" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="1º Nivel"
-                    android:textColor="#FFF" />
+                <RelativeLayout
+                    android:id="@+id/DropPU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Uso"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/plantaPrimStr"
+                        android:textColor="#FFF" />
 
-                <EditText
+                    <ImageView
+                        android:id="@+id/ImgPU"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/imgDescription"
+                        android:rotation="90"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="layoutPU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    android:orientation="vertical"
+                    android:visibility="gone" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giro"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtUsoPU"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/usoStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxUsoPU"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Edo"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtGiroPU"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/giroStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxGiroPU"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+
+                    <TextView
+                        android:id="@+id/txtEdoPU"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edoStr"
+                        android:textColor="#FFF" />
+
+                    <EditText
+                        android:id="@+id/edtxEdoPU"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+                </LinearLayout>
             </LinearLayout>
-            
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
                 android:orientation="vertical" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="2º Nivel"
-                    android:textColor="#FFF" />
+                <RelativeLayout
+                    android:id="@+id/DropPS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Uso"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/plantaSeguStr"
+                        android:textColor="#FFF" />
 
-                <EditText
+                    <ImageView
+                        android:id="@+id/ImgPS"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/imgDescription"
+                        android:rotation="90"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutPS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    android:orientation="vertical"
+                    android:visibility="gone" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giro"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtUsoPS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/usoStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxUsoPS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Edo"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtGiroPS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/giroStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxGiroPS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+
+                    <TextView
+                        android:id="@+id/txtEdoPS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edoStr"
+                        android:textColor="#FFF" />
+
+                    <EditText
+                        android:id="@+id/edtxEdoPS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+                </LinearLayout>
             </LinearLayout>
-            
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
                 android:orientation="vertical" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="3º Nivel"
-                    android:textColor="#FFF" />
+                <RelativeLayout
+                    android:id="@+id/DropPT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Uso"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/plantaTercStr"
+                        android:textColor="#FFF" />
 
-                <EditText
+                    <ImageView
+                        android:id="@+id/ImgPT"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/imgDescription"
+                        android:rotation="90"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutPT"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    android:orientation="vertical"
+                    android:visibility="gone" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giro"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtUsoPUT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/usoStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxUsoPT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Edo"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtGiroPT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/giroStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxGiroPT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+
+                    <TextView
+                        android:id="@+id/txtEdoPT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edoStr"
+                        android:textColor="#FFF" />
+
+                    <EditText
+                        android:id="@+id/edtxEdoPT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+                </LinearLayout>
             </LinearLayout>
-            
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
                 android:orientation="vertical" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="4º Nivel"
-                    android:textColor="#FFF" />
+                <RelativeLayout
+                    android:id="@+id/DropPC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Uso"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/plantaCuarStr"
+                        android:textColor="#FFF" />
 
-                <EditText
+                    <ImageView
+                        android:id="@+id/ImgPC"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/imgDescription"
+                        android:rotation="90"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutPC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    android:orientation="vertical"
+                    android:visibility="gone" >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giro"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtUsoPC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/usoStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxUsoPC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Edo"
-                    android:textColor="#FFF" />
+                    <TextView
+                        android:id="@+id/txtGiroPC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/giroStr"
+                        android:textColor="#FFF" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textColor="#FFF" />
+                    <EditText
+                        android:id="@+id/edtxGiroPC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+
+                    <TextView
+                        android:id="@+id/txtEdoPC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edoStr"
+                        android:textColor="#FFF" />
+
+                    <EditText
+                        android:id="@+id/edtxEdoPC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="#FFF" />
+                </LinearLayout>
             </LinearLayout>
-
-            
         </LinearLayout>
     </ScrollView>
 
@@ -285,9 +432,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
         android:orientation="horizontal" >
 
         <Button
@@ -295,14 +442,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="@string/btnSiguiente" />
+            android:text="@string/botonNuevoLote" />
 
         <Button
             android:id="@+id/btnFinalizar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="@string/btnSiguiente" />
+            android:text="@string/botonEnviar" />
     </LinearLayout>
 
 </RelativeLayout>

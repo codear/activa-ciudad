@@ -43,6 +43,16 @@
     
     <!-- Formulario Tipo Levantamiento -->
     <string name="title_activity_formulario_piso">FormularioPisoActivity</string>
+    <string name="botonNuevoLote">Nuevo Lote</string>
+    <string name="botonEnviar">Enviar</string>
+    <string name="plantaBajaStr">Planta Baja</string>
+    <string name="plantaPrimStr">1º Nivel</string>
+    <string name="plantaSeguStr">2º Nivel</string>
+    <string name="plantaTercStr">3º Nivel</string>
+    <string name="plantaCuarStr">4º Nivel</string>
+    <string name="usoStr">Uso</string>
+    <string name="giroStr">Giro</string>
+    <string name="edoStr">Edo</string>
 	<!-- Fin Formulario Tipo Levantamiento -->
     
     <!-- Strings de errores -->

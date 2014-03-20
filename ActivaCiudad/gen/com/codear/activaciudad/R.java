@@ -46,37 +46,76 @@ public final class R {
         public static final int texto_splash=0x7f020006;
     }
     public static final class id {
-        public static final int EdtMail=0x7f0a0008;
-        public static final int EdtPass=0x7f0a000a;
-        public static final int Ingresa=0x7f0a0006;
-        public static final int Mail=0x7f0a0007;
-        public static final int action_settings=0x7f0a001e;
-        public static final int btnEntrar=0x7f0a000d;
-        public static final int btnFinalizar=0x7f0a0001;
-        public static final int btnLevantamiento=0x7f0a0002;
-        public static final int btnLevantamientoLibre=0x7f0a0005;
-        public static final int btnRegistrarse=0x7f0a000b;
-        public static final int btnSigLote=0x7f0a0000;
-        public static final int btnSigTipoLeva=0x7f0a001d;
-        public static final int datePicker=0x7f0a001c;
-        public static final int imageView1=0x7f0a000e;
-        public static final int levantamientoLibreTxt=0x7f0a0004;
-        public static final int levantamientoUno=0x7f0a0003;
-        public static final int manzanaEdtxt=0x7f0a0018;
-        public static final int numCedulaEdtxt=0x7f0a001a;
-        public static final int pass=0x7f0a0009;
-        public static final int responsableEdtxt=0x7f0a0014;
-        public static final int spinnerGiro=0x7f0a0012;
-        public static final int spinnerUso=0x7f0a0010;
-        public static final int txtFecha=0x7f0a001b;
-        public static final int txtGiro=0x7f0a0011;
-        public static final int txtManzana=0x7f0a0017;
-        public static final int txtNoCedula=0x7f0a0019;
-        public static final int txtResponsable=0x7f0a0013;
-        public static final int txtUso=0x7f0a000f;
-        public static final int txtZona=0x7f0a0015;
-        public static final int usuarioNuevo=0x7f0a000c;
-        public static final int zonaEdtxt=0x7f0a0016;
+        public static final int DropPB=0x7f0a0000;
+        public static final int DropPS=0x7f0a0010;
+        public static final int DropPT=0x7f0a0018;
+        public static final int DropPU=0x7f0a0008;
+        public static final int EdtMail=0x7f0a002f;
+        public static final int EdtPass=0x7f0a0031;
+        public static final int ImgPB=0x7f0a0001;
+        public static final int ImgPC=0x7f0a0020;
+        public static final int ImgPS=0x7f0a0011;
+        public static final int ImgPT=0x7f0a0019;
+        public static final int ImgPU=0x7f0a0009;
+        public static final int Ingresa=0x7f0a002d;
+        public static final int Mail=0x7f0a002e;
+        public static final int action_settings=0x7f0a0045;
+        public static final int btnEntrar=0x7f0a0034;
+        public static final int btnFinalizar=0x7f0a0028;
+        public static final int btnLevantamiento=0x7f0a0029;
+        public static final int btnLevantamientoLibre=0x7f0a002c;
+        public static final int btnRegistrarse=0x7f0a0032;
+        public static final int btnSigLote=0x7f0a0027;
+        public static final int btnSigTipoLeva=0x7f0a0044;
+        public static final int datePicker=0x7f0a0043;
+        public static final int edtxEdoPB=0x7f0a0007;
+        public static final int edtxEdoPC=0x7f0a0026;
+        public static final int edtxEdoPS=0x7f0a0017;
+        public static final int edtxEdoPT=0x7f0a001f;
+        public static final int edtxEdoPU=0x7f0a000f;
+        public static final int edtxGiroPB=0x7f0a0005;
+        public static final int edtxGiroPC=0x7f0a0024;
+        public static final int edtxGiroPS=0x7f0a0015;
+        public static final int edtxGiroPT=0x7f0a001d;
+        public static final int edtxGiroPU=0x7f0a000d;
+        public static final int edtxUsoPB=0x7f0a0003;
+        public static final int edtxUsoPC=0x7f0a0022;
+        public static final int edtxUsoPS=0x7f0a0013;
+        public static final int edtxUsoPT=0x7f0a001b;
+        public static final int edtxUsoPU=0x7f0a000b;
+        public static final int imageView1=0x7f0a0035;
+        public static final int levantamientoLibreTxt=0x7f0a002b;
+        public static final int levantamientoUno=0x7f0a002a;
+        public static final int manzanaEdtxt=0x7f0a003f;
+        public static final int numCedulaEdtxt=0x7f0a0041;
+        public static final int pass=0x7f0a0030;
+        public static final int responsableEdtxt=0x7f0a003b;
+        public static final int spinnerGiro=0x7f0a0039;
+        public static final int spinnerUso=0x7f0a0037;
+        public static final int txtEdoPB=0x7f0a0006;
+        public static final int txtEdoPC=0x7f0a0025;
+        public static final int txtEdoPS=0x7f0a0016;
+        public static final int txtEdoPT=0x7f0a001e;
+        public static final int txtEdoPU=0x7f0a000e;
+        public static final int txtFecha=0x7f0a0042;
+        public static final int txtGiro=0x7f0a0038;
+        public static final int txtGiroPB=0x7f0a0004;
+        public static final int txtGiroPC=0x7f0a0023;
+        public static final int txtGiroPS=0x7f0a0014;
+        public static final int txtGiroPT=0x7f0a001c;
+        public static final int txtGiroPU=0x7f0a000c;
+        public static final int txtManzana=0x7f0a003e;
+        public static final int txtNoCedula=0x7f0a0040;
+        public static final int txtResponsable=0x7f0a003a;
+        public static final int txtUso=0x7f0a0036;
+        public static final int txtUsoPB=0x7f0a0002;
+        public static final int txtUsoPC=0x7f0a0021;
+        public static final int txtUsoPS=0x7f0a0012;
+        public static final int txtUsoPU=0x7f0a000a;
+        public static final int txtUsoPUT=0x7f0a001a;
+        public static final int txtZona=0x7f0a003c;
+        public static final int usuarioNuevo=0x7f0a0033;
+        public static final int zonaEdtxt=0x7f0a003d;
     }
     public static final class layout {
         public static final int activity_formulario_piso=0x7f030000;
@@ -97,12 +136,16 @@ public final class R {
         public static final int NoCedula=0x7f070011;
         public static final int action_settings=0x7f070001;
         public static final int app_name=0x7f070000;
+        public static final int botonEnviar=0x7f070018;
+        public static final int botonNuevoLote=0x7f070017;
         public static final int btnSiguiente=0x7f070013;
+        public static final int edoStr=0x7f070020;
         /**  Fin Formulario Tipo Levantamiento 
  Strings de errores 
          */
-        public static final int errEdtxZero=0x7f070017;
+        public static final int errEdtxZero=0x7f070021;
         public static final int fecha=0x7f070012;
+        public static final int giroStr=0x7f07001f;
         public static final int hello_world=0x7f070015;
         /**  Fin Tipo de levantamiento 
  Content Description 
@@ -115,6 +158,11 @@ public final class R {
         public static final int mail=0x7f070004;
         public static final int manzana=0x7f070010;
         public static final int passs=0x7f070005;
+        public static final int plantaBajaStr=0x7f070019;
+        public static final int plantaCuarStr=0x7f07001d;
+        public static final int plantaPrimStr=0x7f07001a;
+        public static final int plantaSeguStr=0x7f07001b;
+        public static final int plantaTercStr=0x7f07001c;
         public static final int registrate=0x7f070007;
         public static final int responsable=0x7f07000e;
         public static final int subtipoLevantamiendo=0x7f07000d;
@@ -135,6 +183,7 @@ public final class R {
          */
         public static final int title_activity_tipo_levantamiento=0x7f07000b;
         public static final int userNew=0x7f070006;
+        public static final int usoStr=0x7f07001e;
         public static final int zona=0x7f07000f;
     }
     public static final class style {
