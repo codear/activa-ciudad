@@ -29,6 +29,11 @@ public final class R {
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    
+
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
@@ -60,7 +65,7 @@ public final class R {
         public static final int ImgPU=0x7f0a000a;
         public static final int Ingresa=0x7f0a0033;
         public static final int Mail=0x7f0a0034;
-        public static final int action_settings=0x7f0a004b;
+        public static final int action_settings=0x7f0a0058;
         public static final int btnEntrar=0x7f0a003a;
         public static final int btnFinalizar=0x7f0a002e;
         public static final int btnLevantamiento=0x7f0a002f;
@@ -68,7 +73,9 @@ public final class R {
         public static final int btnRegistrarse=0x7f0a0038;
         public static final int btnSigLote=0x7f0a002d;
         public static final int btnSigTipoLeva=0x7f0a004a;
+        public static final int btnSigTipoLevaLibre=0x7f0a0057;
         public static final int datePicker=0x7f0a0049;
+        public static final int datePickerLibre=0x7f0a0056;
         public static final int edtxEdoPB=0x7f0a0008;
         public static final int edtxEdoPC=0x7f0a002c;
         public static final int edtxEdoPS=0x7f0a001a;
@@ -93,9 +100,12 @@ public final class R {
         public static final int levantamientoLibreTxt=0x7f0a0031;
         public static final int levantamientoUno=0x7f0a0030;
         public static final int manzanaEdtxt=0x7f0a0045;
+        public static final int manzanaEdtxtLibre=0x7f0a0052;
         public static final int numCedulaEdtxt=0x7f0a0047;
+        public static final int numCedulaEdtxtLibre=0x7f0a0054;
         public static final int pass=0x7f0a0036;
         public static final int responsableEdtxt=0x7f0a0041;
+        public static final int responsableEdtxtLibre=0x7f0a004e;
         public static final int spinnerGiro=0x7f0a003f;
         public static final int spinnerUso=0x7f0a003d;
         public static final int txtEdoPB=0x7f0a0007;
@@ -104,24 +114,32 @@ public final class R {
         public static final int txtEdoPT=0x7f0a0022;
         public static final int txtEdoPU=0x7f0a0010;
         public static final int txtFecha=0x7f0a0048;
+        public static final int txtFechaLibre=0x7f0a0055;
         public static final int txtGiro=0x7f0a003e;
+        public static final int txtGiroLibre=0x7f0a004c;
         public static final int txtGiroPB=0x7f0a0005;
         public static final int txtGiroPC=0x7f0a0029;
         public static final int txtGiroPS=0x7f0a0017;
         public static final int txtGiroPT=0x7f0a0020;
         public static final int txtGiroPU=0x7f0a000e;
         public static final int txtManzana=0x7f0a0044;
+        public static final int txtManzanaLibre=0x7f0a0051;
         public static final int txtNoCedula=0x7f0a0046;
+        public static final int txtNoCedulaLibre=0x7f0a0053;
         public static final int txtResponsable=0x7f0a0040;
+        public static final int txtResponsableLibre=0x7f0a004d;
         public static final int txtUso=0x7f0a003c;
+        public static final int txtUsoLibre=0x7f0a004b;
         public static final int txtUsoPB=0x7f0a0003;
         public static final int txtUsoPC=0x7f0a0027;
         public static final int txtUsoPS=0x7f0a0015;
         public static final int txtUsoPU=0x7f0a000c;
         public static final int txtUsoPUT=0x7f0a001e;
         public static final int txtZona=0x7f0a0042;
+        public static final int txtZonaLibre=0x7f0a004f;
         public static final int usuarioNuevo=0x7f0a0039;
         public static final int zonaEdtxt=0x7f0a0043;
+        public static final int zonaEdtxtLibre=0x7f0a0050;
     }
     public static final class layout {
         public static final int activity_formulario_piso=0x7f030000;
@@ -129,6 +147,7 @@ public final class R {
         public static final int activity_login=0x7f030002;
         public static final int activity_main=0x7f030003;
         public static final int activity_tipo_levantamiento=0x7f030004;
+        public static final int activity_tipo_levantamiento_libre=0x7f030005;
     }
     public static final class menu {
         public static final int formulario_piso=0x7f090000;
@@ -136,6 +155,7 @@ public final class R {
         public static final int login=0x7f090002;
         public static final int main=0x7f090003;
         public static final int tipo_levantamiento=0x7f090004;
+        public static final int tipo_levantamiento_libre=0x7f090005;
     }
     public static final class string {
         public static final int LevantamientoProy=0x7f07000a;
@@ -188,6 +208,7 @@ public final class R {
  Tipo de levantamiento 
          */
         public static final int title_activity_tipo_levantamiento=0x7f07000b;
+        public static final int title_activity_tipo_levantamiento_libre=0x7f070022;
         public static final int userNew=0x7f070006;
         public static final int usoStr=0x7f07001e;
         public static final int zona=0x7f07000f;

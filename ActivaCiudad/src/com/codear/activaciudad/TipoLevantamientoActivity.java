@@ -5,10 +5,8 @@ import Singleton.LevantamientoSingleton;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -19,7 +17,6 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class TipoLevantamientoActivity extends Activity {
 
@@ -31,9 +28,10 @@ public class TipoLevantamientoActivity extends Activity {
 	DatePicker picker;
 	Button btnSig;
 
-	ArrayAdapter adapterUso, adapterHabitacion, adapterComercio,
+	ArrayAdapter<CharSequence> adapterUso, adapterHabitacion, adapterComercio,
 			adapterEspVerd, adapterEspAbier, adapterOtro, adapterIndust,
 			adapterServi, adapterEquipUno, adapterEquipDos, adapterIgleTemp;
+	View focusView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -157,7 +155,6 @@ public class TipoLevantamientoActivity extends Activity {
 
 			@Override
 			public void onNothingSelected(AdapterView<?> parentView) {
-				// TODO Auto-generated method stub
 			}
 		});
 
@@ -179,7 +176,6 @@ public class TipoLevantamientoActivity extends Activity {
 
 	protected boolean validarDatos() {
 		boolean cancelar = false;
-		View focusView;
 		edResponsable.setError(null);
 		edZona.setError(null);
 		edManzana.setError(null);

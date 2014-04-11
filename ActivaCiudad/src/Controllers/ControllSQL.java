@@ -11,11 +11,11 @@ public class ControllSQL extends SQLiteOpenHelper {
 			"PBuso TEXT, PBgiro TEXT,PBedo TEXT," +
 			"PUuso TEXT, PUgiro TEXT,PUedo TEXT," +
 			"PDuso TEXT, PDgiro TEXT,PDedo TEXT," +
-			"PTuso TEXT, PTgiro TEXT,PTedo TEXT)," +
-			"PCuso TEXT, PCgiro TEXT,PCedo TEXT";
+			"PTuso TEXT, PTgiro TEXT,PTedo TEXT," +
+			"PCuso TEXT, PCgiro TEXT,PCedo TEXT)";
 	
 	String sqlDrop = "DROP TABLE IF EXISTS Lote";
-	String sqlTruncate = "TRUNCATE TABLE Lote";
+	String sqlTruncate = "TRUNCATE TABLE IF EXISTS Lote";
 
 	public ControllSQL(Context context, String name, CursorFactory factory,
 			int version) {
@@ -30,6 +30,7 @@ public class ControllSQL extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		db.execSQL(sqlDrop);
+		db.execSQL(sqlTruncate);
 		db.execSQL(sqlCreate);
 	}
 

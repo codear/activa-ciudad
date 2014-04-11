@@ -4,7 +4,6 @@ import java.util.regex.Pattern;
 
 import android.app.Activity;
 import android.widget.EditText;
-import android.widget.TextView;
 
 public enum Validaciones {
 	INSTANCE;

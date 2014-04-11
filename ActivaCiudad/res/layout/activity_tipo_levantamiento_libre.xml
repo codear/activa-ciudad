@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtUsoLibre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tipoLevantamiento"
+                android:textColor="#FFF"
+                android:textSize="45sp" />
+
+            <Spinner
+                android:id="@+id/spinnerUso"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/txtGiroLibre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subtipoLevantamiendo"
+                android:textColor="#FFF"
+                android:textSize="45sp" />
+
+            <Spinner
+                android:id="@+id/spinnerGiro"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:spinnerMode="dialog" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtResponsableLibre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/responsable"
+                    android:textColor="#FFF"
+                    android:textSize="45sp" />
+
+                <EditText
+                    android:id="@+id/responsableEdtxtLibre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/txtZonaLibre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zona"
+                    android:textColor="#FFF"
+                    android:textSize="45sp" />
+
+                <EditText
+                    android:id="@+id/zonaEdtxtLibre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/txtManzanaLibre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/manzana"
+                    android:textColor="#FFF"
+                    android:textSize="45sp" />
+
+                <EditText
+                    android:id="@+id/manzanaEdtxtLibre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/txtNoCedulaLibre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NoCedula"
+                    android:textColor="#FFF"
+                    android:textSize="45sp" />
+
+                <EditText
+                    android:id="@+id/numCedulaEdtxtLibre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/txtFechaLibre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fecha"
+                    android:textColor="#FFF"
+                    android:textSize="45sp" />
+
+                <DatePicker
+                    android:id="@+id/datePickerLibre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSigTipoLevaLibre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/btnSiguiente" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

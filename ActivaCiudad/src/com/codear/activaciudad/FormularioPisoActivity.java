@@ -1,14 +1,12 @@
 package com.codear.activaciudad;
 
 import Controllers.ControllSQL;
-import Singleton.LevantamientoSingleton;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -42,9 +40,9 @@ public class FormularioPisoActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_formulario_piso);
 		
-		//ControllSQL loteDBH = new ControllSQL(this, "LevantamientoDB", null, 1);
+		ControllSQL loteDBH = new ControllSQL(this, "LevantamientoDB", null, 1);
 		
-		//db = loteDBH.getWritableDatabase();
+		db = loteDBH.getWritableDatabase();
 
 		dropPB = (RelativeLayout) findViewById(R.id.DropPB);
 		dropPU = (RelativeLayout) findViewById(R.id.DropPU);
@@ -99,7 +97,7 @@ public class FormularioPisoActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-
+				db.execSQL("DROP TABLE IF EXISTS Lote");
 			}
 		});
 		
@@ -153,6 +151,7 @@ public class FormularioPisoActivity extends Activity {
 		isDownPT = true;
 		isDownPC = true;
 		
+		guardarCampos();
 		limpiarCampos();
 		
 		layoutPB.setVisibility(View.VISIBLE);

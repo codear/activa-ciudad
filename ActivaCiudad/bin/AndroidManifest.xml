@@ -40,6 +40,10 @@
             android:name="com.codear.activaciudad.FormularioPisoActivity"
             android:label="@string/title_activity_formulario_piso" >
         </activity>
+        <activity
+            android:name="com.codear.activaciudad.TipoLevantamientoLibre"
+            android:label="@string/title_activity_tipo_levantamiento_libre" >
+        </activity>
     </application>
 
 </manifest>
