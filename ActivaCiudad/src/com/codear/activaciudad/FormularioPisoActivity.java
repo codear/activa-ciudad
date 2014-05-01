@@ -105,7 +105,8 @@ public class FormularioPisoActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				dropPlantaBaja();
+				//dropPlantaBaja();
+			 isDownPB =	dropPlanta(isDownPB, layoutPB, imgPB);
 			}
 		});
 
@@ -113,7 +114,8 @@ public class FormularioPisoActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				dropPlantaUno();
+				//dropPlantaUno();
+				isDownPU = dropPlanta(isDownPU, layoutPU, imgPU);
 			}
 		});
 
@@ -121,7 +123,8 @@ public class FormularioPisoActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				dropPlantaDos();
+				//dropPlantaDos();
+				isDownPS = dropPlanta(isDownPS, layoutPS, imgPS);
 			}
 		});
 
@@ -129,7 +132,8 @@ public class FormularioPisoActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				dropPlantaTres();
+				//dropPlantaTres();
+				isDownPT = dropPlanta(isDownPT, layoutPT, imgPT);
 			}
 		});
 
@@ -137,7 +141,8 @@ public class FormularioPisoActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				dropPlantaCuatro();
+				//dropPlantaCuatro();
+				isDownPC = dropPlanta(isDownPC, layoutPC, imgPC);
 			}
 		});
 
@@ -233,64 +238,18 @@ public class FormularioPisoActivity extends Activity {
 		edEdoPC.setText("");
 	}
 	
-	public void dropPlantaBaja() {
-		if (isDownPB == true) {
-			layoutPB.setVisibility(View.VISIBLE);
-			imgPB.setRotation(0f);
-			isDownPB = false;
+	public boolean dropPlanta(boolean down, LinearLayout layout, ImageView img){
+		if (down == true) {
+			layout.setVisibility(View.VISIBLE);
+			img.setRotation(0f);
+			down = false;
+			return down;
 		} else {
-			layoutPB.setVisibility(View.GONE);
-			imgPB.setRotation(90f);
-			isDownPB = true;
+			layout.setVisibility(View.GONE);
+			img.setRotation(90f);
+			down = true;
+			return down;
 		}
 	}
-
-	public void dropPlantaUno() {
-		if (isDownPU == true) {
-			layoutPU.setVisibility(View.VISIBLE);
-			imgPU.setRotation(0f);
-			isDownPU = false;
-		} else {
-			layoutPU.setVisibility(View.GONE);
-			imgPU.setRotation(90f);
-			isDownPU = true;
-		}
-	}
-
-	public void dropPlantaDos() {
-		if (isDownPS == true) {
-			layoutPS.setVisibility(View.VISIBLE);
-			imgPS.setRotation(0f);
-			isDownPS = false;
-		} else {
-			layoutPS.setVisibility(View.GONE);
-			imgPS.setRotation(90f);
-			isDownPS = true;
-		}
-	}
-
-	public void dropPlantaTres() {
-		if (isDownPT == true) {
-			layoutPT.setVisibility(View.VISIBLE);
-			imgPT.setRotation(0f);
-			isDownPT = false;
-		} else {
-			layoutPT.setVisibility(View.GONE);
-			imgPT.setRotation(90f);
-			isDownPT = true;
-		}
-	}
-
-	public void dropPlantaCuatro() {
-		if (isDownPC == true) {
-			layoutPC.setVisibility(View.VISIBLE);
-			imgPC.setRotation(0f);
-			isDownPC = false;
-		} else {
-			layoutPC.setVisibility(View.GONE);
-			imgPC.setRotation(90f);
-			isDownPC = true;
-		}
-	}
-
+	
 }
